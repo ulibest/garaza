@@ -1,0 +1,90 @@
+baseURL = "http://garaza.io"
+languageCode = "sl-si"
+title = "Garaža FRI | Študentski tehnološki pospeševalnik"
+theme = "biztrox-hugo-modified"
+
+
+[menu]
+    [[menu.nav]]
+    name = "O garaži"
+    URL = "/o_garazi"
+    weight = 1
+
+    [[menu.nav]]
+    name = "Programi"
+    URL = "/programi/"
+    weight = 2
+    
+    [[menu.nav]]
+    name = "Dogodki"
+    URL = "/dogodki/"
+    weight = 3
+    
+    [[menu.nav]]
+    name = "Ekipe"
+    URL = "/ekipe"
+    weight = 4
+    
+    [[menu.nav]]
+    name = "Pridruži se"
+    URL = "/pridruzi_se"
+    weight = 5
+    
+    [[menu.nav]]
+    name = "FAQ"
+    URL = "/faq"
+    weight = 6
+
+
+[taxonomies]
+    category = "categories"
+    tag = "tags"
+    tagIzobrazevanjeZaPodjetje = "tagsIzobrazevanjaZaPodjetja"
+
+[params]
+logo = "images/PNG_GARAZA_LOGOTIP_I.png"
+mail = "garaza@fri.uni-lj.si"
+#mobile = "+386 1 479 8268"
+home = "Garaža FRI"
+
+# mailchimp subsciption
+mailchimpFormAction = "https://uni-lj.us20.list-manage.com/subscribe/post?u=ad2bdda8ad23165330c877ca4&amp;id=0990001b34"
+mailchimpFormName = "b_ad2bdda8ad23165330c877ca4_0990001b34"
+
+  [params.homepage]
+    # footer
+    [params.footer]
+    logo = "images/unilj.png"
+    content = "<strong>Univerza v Ljubljani</strong><br><strong>Fakulteta za računalništvo in informatiko</strong><br><br>Večna pot 113, 1000 Ljubljana, Slovenija<br><br>"
+    # tekst srednji stolpec
+    content2 = "<br><br><strong>Garaža UL FRI</strong><br><br>Študentski tehnološki pospeševalnik<br>e-naslov: garaza@fri.uni-lj.si"
+
+    # copyright
+    copyright = "Vse pravice pridržane &copy; <span class=\"text-primary\">Garaža UL FRI</span>, <script>document.write(new Date().getFullYear())</script><noscript>2019</noscript>"
+
+    [[params.footer.links]]
+    name = "Pogoji uporabe"
+    URL = "/pogoji"
+
+    
+        # social icon
+        [[params.footer.socialIcon]]
+        icon = "ti-rss"
+        URL = "https://garaza.io/index.xml" 
+        target="_blank"
+        
+        [[params.footer.socialIcon]]
+        icon = "ti-facebook"
+        URL = "https://www.facebook.com/ulfri"
+        
+        [[params.footer.socialIcon]]
+        icon = "ti-twitter"
+        URL = "https://twitter.com/garazaFRI"
+
+        [[params.footer.socialIcon]]
+        icon = "ti-instagram"
+        URL = "https://www.instagram.com/garazafri/"
+
+        [[params.footer.socialIcon]]
+        icon = "ti-github"
+        URL = "https://github.com/garazaFRI"
